@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+        
+}
+#left-panel{
+    width: 25vw;
+    height: 100vh;
+    color: white;
+    background-color:rgba(255, 255, 0, 0.361);
+    
+    position: sticky;
+    top: 0;
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    list-style: none;
+    margin-top: 40vh;
+    font-size: large;
+
+    
+    
+}
+li a{
+    text-decoration:none
+    
+
+}
+body{
+    display: flex;
+    
+}
+#Home{
+    height: 100vh;
+    
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width:75vw;    
+    background-image: url("./home.jpg");
+}
+#Contact {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(163, 118, 118);
+    width:75vw;
+    background-image: url("./pexels-alex-andrews-821754.jpg");
+    
+    
+}
+
+#Information {
+    height: 100vh;
+    
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    color: rgb(255, 255, 255);
+    width:75vw;
+    background-image: url("./information.jpg");
+}
+#Guide {
+    height: 100vh;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    color: rgb(0, 0, 0);
+    width:75vw;
+    background-image: url("./guide.jpg");
+}
+
